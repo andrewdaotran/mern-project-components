@@ -5,7 +5,7 @@ const Auth = () => {
         <>
           <input type="text" placeholder="email address" name="email" />
           <input
-            type={showPassword ? `text` : `password`}
+            type="password"
             name="password"
             placeholder="password"
           />
